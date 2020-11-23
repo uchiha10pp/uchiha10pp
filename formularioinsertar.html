@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Document</title>
+	</head>
+	<body>		
+			<form method="POST" action="insertar.php">
+				<div class="form">
+					<h1>FORMULARIO</h1>
+					<div class="alumno">
+						<input type="number" name="codigo" placeholder="Ingrese código" required="" />
+					</div>
+					<div class="alumno">
+						<input type="text" name="nombre" placeholder="Ingrese nombre" required="" />
+					</div>
+					<div class="alumno">
+						<input type="text" name="apellido" placeholder="Ingrese apellido" required="" />
+					</div>
+					<div class="alumno">
+						<input type="text" name="direccion" placeholder="Ingrese dirección" required="" />
+					</div>
+					<div class="alumno">
+						<input type="email" name="correo" placeholder="Ingrese correo" required="" />
+					</div>
+					<div class="alumno">
+						<select name="sexo" required>
+							<option></option>
+							<option value="M">MASCULINO</option>
+							<option value="F">FEMENINO</option>
+						</select>
+					</div>
+
+					<div class="alumno">
+						<input type="phonne" name="telefono" placeholder="Ingrese telefono" required="" />
+					</div>
+					
+					<div class="alumno">
+						<select name="CARRERA" required>
+							<option></option>
+							<option value="1">TÉCNICO DE ENFERMERÍA</option>
+							<option value="8">TÉCNICO AGROPECUARIO</option>
+						</select>
+					</div>
+
+					<input type="submit" name="submit" value="Guardar">
+					
+				</div>				
+			</form>
+			<a href="index.html">Menu Principal</a>
+	</body>
+</html>
